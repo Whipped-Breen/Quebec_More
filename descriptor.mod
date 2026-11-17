@@ -4,5 +4,5 @@ tags={
 	"National Focuses"
 }
 name="Quebec & More"
-supported_version="1.16.*"
+supported_version="1.19.*"
 remote_file_id="2807936054"
