@@ -4,25 +4,6 @@
 # Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
 # Picking up a gender is random, and is influenced by the amount of names scripted.
 
-QUE = {
-	male = {
-		names = {  
-			Eric Jonathan Sebastien	Martin Mathieu David Patrick Francois Jean Francois	Alexandre Simon Frederic Philippe 
-			Stephane Steve Francis Daniel Pascal Guillaume Benoit Christian Nicolas Dominic Sylvain Maxime
-		}
-	}
-	female = {
-		names = { 	
-			Julie Melanie Karine Genevieve Isabelle
-			Caroline Annie Veronique 
-		}
-	}
-	surnames = { 
-		Tremblay Gagnon Roy Côté Bouchard Gauthier Morin Lavoie Fortin Gagné Ouellet Pelletier Bélanger 
-		Lévesque Bergeron Leblanc Paquette Girard Simard Boucher Caron Beaulieu Cloutier Dubé Poirier
-	}
-	callsigns = {  }
-}
 NAL = {
 	male = {
 		names = { 
