@@ -1,0 +1,109 @@
+on_actions = {
+	#ROOT is new controller #FROM is old controller #FROM.FROM is state ID
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					FROM.FROM = { state = 468 }
+				}
+				if = {
+					limit = {
+						ROOT = { original_tag = QUE }
+					}
+					add_victory_points = { province = 12149 value = 20 }
+				}
+			}
+		}
+	}
+	#ROOT = nation being puppeted, FROM = overlord
+	on_puppet = {
+		effect = {
+			if = {
+				limit = { 
+					AND = { 
+						TAG = NNG
+						is_subject_of = ENG
+						ENG = { NOT = { has_government = communism } }
+					}
+				}
+				set_cosmetic_tag = NNG_ENG
+			}
+			if = {
+				limit = { 
+					AND = { 
+						TAG = NNG
+						is_subject_of = ENG
+						ENG = { has_government = communism }
+					}
+				}
+				set_cosmetic_tag = NNG_ENG_communism
+			}
+			if = {
+				limit = { 
+					AND = { 
+						TAG = NNG
+						is_subject_of = USA
+					}
+				}
+				set_cosmetic_tag = NNG_USA
+			}
+			if = {
+				limit = { 
+					AND = { 
+						TAG = NAL
+						is_subject_of = ENG
+						ENG = { NOT = { has_government = communism } }
+					}
+				}
+				set_cosmetic_tag = NAL_ENG
+			}
+		}
+	}
+
+	#used when puppeting through the occupied territories menu during peace time (or when releasing from non-core but owned territory, f.e. Britain releasing Egypt)
+	#ROOT = nation being released, FROM = overlord
+	on_release_as_puppet = {
+		effect = {
+			if = {
+				limit = { 
+					AND = { 
+						TAG = NNG
+						is_subject_of = ENG
+						ENG = { NOT = { has_government = communism } }
+					}
+				}
+				set_cosmetic_tag = NNG_ENG
+			}
+			if = {
+				limit = { 
+					AND = { 
+						TAG = NNG
+						is_subject_of = ENG
+						ENG = { has_government = communism }
+					}
+				}
+				set_cosmetic_tag = NNG_ENG_communism
+			}
+			if = {
+				limit = { 
+					AND = { 
+						TAG = NNG
+						is_subject_of = USA
+					}
+				}
+				set_cosmetic_tag = NNG_USA
+			}
+			if = {
+				limit = { 
+					AND = { 
+						TAG = NAL
+						is_subject_of = ENG
+						ENG = { NOT = { has_government = communism } }
+					}
+				}
+				set_cosmetic_tag = NAL_ENG
+			}
+		}
+	}
+}
+

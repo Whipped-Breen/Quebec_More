@@ -1,0 +1,95 @@
+﻿capital = 331
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	fuel_silos = 1
+}
+
+set_convoys = 75
+
+set_research_slots = 2
+
+recruit_character = NAL_Sir_Humphrey_T_Walwyn
+recruit_character = NAL_acr
+recruit_character = NAL_stc
+recruit_character = NAL_awt
+recruit_character = NAL_pot
+recruit_character = NAL_mt
+recruit_character = NAL_ncm
+recruit_character = NAL_nt
+recruit_character = NAL_acd2
+recruit_character = NAL_fascist_guy
+recruit_character = NAL_ncs
+recruit_character = NAL_nccr
+recruit_character = NAL_aco2
+recruit_character = NAL_communist_guy
+recruit_character = NAL_ai2
+recruit_character = NAL_ar
+recruit_character = NAL_coi
+recruit_character = NAL_acas
+recruit_character = NAL_acgs
+recruit_character = NAL_aa2
+recruit_character = NAL_democratic_guy
+
+332 = {
+	add_core_of = NAL
+}
+331 = {
+	add_core_of = NAL
+	set_victory_points = { province = 12505 value = 1 }
+	set_province_name = { id = 12505 name = "St. John's" }
+}
+730 = {
+	add_core_of = NAL
+}
+
+1939.1.1 = {
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = flexible_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+
+		#doctrines
+		grand_battle_plan = 1
+		trench_warfare = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 72
+	fascism = 3
+	communism = 4
+	neutrality = 21
+}
+

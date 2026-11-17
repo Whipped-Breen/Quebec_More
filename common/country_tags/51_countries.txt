@@ -1,0 +1,2 @@
+NAL	= "countries/Newfoundland and Labrador.txt"
+NNG	= "countries/New England.txt"

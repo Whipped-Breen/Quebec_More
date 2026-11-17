@@ -1,0 +1,30 @@
+CAN_conscription_crisis = {
+	enable = { always = yes }
+	remove_trigger = {
+		CONTROLLER = {
+			OR = {
+				original_tag = QUE
+				has_cosmetic_tag = COB_UNIFIED
+			}
+		}
+	}
+
+	icon = GFX_modifiers_conscription_exemptions_granted
+	
+	recruitable_population_factor = -0.95
+}
+CAN_conscription_crisis_mended = {
+	enable = { always = yes }
+	remove_trigger = {
+		CONTROLLER = {
+			OR = {
+				original_tag = QUE
+				has_cosmetic_tag = COB_UNIFIED
+			}
+		}
+	}
+
+	icon = GFX_modifiers_conscription_exemptions_granted
+	
+	recruitable_population_factor = -0.31
+}

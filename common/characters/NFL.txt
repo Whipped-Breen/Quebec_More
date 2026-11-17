@@ -1,0 +1,441 @@
+characters={
+	NAL_Sir_Humphrey_T_Walwyn={
+		name="Sir Humphrey T. Walwyn"
+		portraits={
+			civilian = {
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	NAL_acr={
+		advisor={
+			slot = air_chief
+			idea_token = NAL_acr
+			allowed  = {
+					original_tag  = NAL
+				}
+				traits  = {
+					air_chief_reform_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		portraits={
+			army={
+				small="GFX_idea_generic_air_europe_3"
+			}
+		}
+	}
+	NAL_stc={
+		advisor={
+			slot = political_advisor
+			idea_token = NAL_stc
+			allowed  = {
+					original_tag  = NAL
+				}
+				traits  = {
+					smooth_talking_charmer 
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_3"
+			}
+		}
+	}
+	NAL_awt={
+		advisor={
+			slot = theorist
+			idea_token = NAL_awt
+			ledger  = air 
+				allowed  = {
+					original_tag  = NAL
+				}
+				traits  = {
+					air_warfare_theorist 
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		portraits={
+			army={
+				small="GFX_idea_generic_air_europe_2"
+			}
+		}
+	}
+	NAL_pot={
+		advisor={
+			slot = political_advisor
+			idea_token = NAL_pot
+			allowed  = {
+					original_tag  = NAL
+				}
+				traits  = {
+					prince_of_terror 
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_2"
+			}
+		}
+	}
+	NAL_mt={
+		advisor={
+			slot = theorist
+			idea_token = NAL_mt
+			ledger  = army 
+				allowed  = {
+					original_tag  = NAL
+				}
+				traits  = {
+					military_theorist 
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_6"
+			}
+		}
+	}
+	NAL_ncm={
+		advisor={
+			slot = navy_chief
+			idea_token = NAL_ncm
+			allowed  = {
+					original_tag  = NAL
+				}
+				traits  = {
+					navy_chief_maneuver_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_europe_3"
+			}
+		}
+	}
+	NAL_nt={
+		advisor={
+			slot = theorist
+			idea_token = NAL_nt
+			ledger  = navy 
+				allowed  = {
+					original_tag  = NAL
+				}
+				traits  = {
+					naval_theorist 
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_europe_3"
+			}
+		}
+	}
+	NAL_acd2={
+		advisor={
+			slot = army_chief
+			idea_token = NAL_acd2
+			allowed  = {
+					original_tag  = NAL
+				}
+				traits  = {
+					army_chief_defensive_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_1"
+			}
+		}
+	}
+	NAL_fascist_guy={
+		advisor={
+			slot = political_advisor
+			idea_token = NAL_fascist_guy
+			allowed  = {
+					original_tag  = NAL
+				}
+				traits  = {
+					fascist_demagogue 
+				}
+				do_effect  = {
+					not  = {
+						has_government  = fascism 
+					}
+				}
+				ai_will_do  = {
+					factor  = 0.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_2"
+			}
+		}
+	}
+	NAL_ncs={
+		advisor={
+			slot = high_command
+			idea_token = NAL_ncs
+			ledger  = navy 
+				allowed  = {
+					original_tag  = NAL
+				}
+				traits  = {
+					navy_capital_ship_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_europe_2"
+			}
+		}
+	}
+	NAL_nccr={
+		advisor={
+			slot = navy_chief
+			idea_token = NAL_nccr
+			allowed  = {
+					original_tag  = NAL
+				}
+				traits  = {
+					navy_chief_commerce_raiding_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_europe_2"
+			}
+		}
+	}
+	NAL_aco2={
+		advisor={
+			slot = army_chief
+			idea_token = NAL_aco2
+			allowed  = {
+					original_tag  = NAL
+				}
+				traits  = {
+					army_chief_organizational_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_4"
+			}
+		}
+	}
+	NAL_communist_guy={
+		advisor={
+			slot = political_advisor
+			idea_token = NAL_communist_guy
+			allowed  = {
+					original_tag  = NAL
+				}
+				traits  = {
+					communist_revolutionary 
+				}
+				do_effect  = {
+					not  = {
+						has_government  = communism 
+					}
+				}
+				ai_will_do  = {
+					factor  = 0.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_3"
+			}
+		}
+	}
+	NAL_ai2={
+		advisor={
+			slot = high_command
+			idea_token = NAL_ai2
+			ledger  = army 
+				allowed  = {
+					original_tag  = NAL
+				}
+				traits  = {
+					army_infantry_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_3"
+			}
+		}
+	}
+	NAL_ar={
+		advisor={
+			slot = high_command
+			idea_token = NAL_ar
+			ledger  = army 
+				allowed  = {
+					original_tag  = NAL
+				}
+				traits  = {
+					army_regrouping_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_5"
+			}
+		}
+	}
+	NAL_coi={
+		advisor={
+			slot = political_advisor
+			idea_token = NAL_coi
+			allowed  = {
+					original_tag  = NAL
+				}
+				traits  = {
+					captain_of_industry 
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+	}
+	NAL_acas={
+		advisor={
+			slot = high_command
+			idea_token = NAL_acas
+			ledger  = air 
+				allowed  = {
+					original_tag  = NAL
+				}
+				traits  = {
+					air_close_air_support_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		portraits={
+			army={
+				small="GFX_idea_generic_air_europe_2"
+			}
+		}
+	}
+	NAL_acgs={
+		advisor={
+			slot = air_chief
+			idea_token = NAL_acgs
+			allowed  = {
+					original_tag  = NAL
+				}
+				traits  = {
+					air_chief_ground_support_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		portraits={
+			army={
+				small="GFX_idea_generic_air_europe_3"
+			}
+		}
+	}
+	NAL_aa2={
+		advisor={
+			slot = high_command
+			idea_token = NAL_aa2
+			ledger  = army 
+				allowed  = {
+					original_tag  = NAL
+				}
+				traits  = {
+					army_armored_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_2"
+			}
+		}
+	}
+	NAL_democratic_guy={
+		advisor={
+			slot = political_advisor
+			idea_token = NAL_democratic_guy
+			allowed  = {
+					original_tag  = NAL
+				}
+				traits  = {
+					democratic_reformer 
+				}
+				do_effect  = {
+					not  = {
+						has_government  = democratic 
+					}
+				}
+				ai_will_do  = {
+					factor  = 0.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+	}
+}

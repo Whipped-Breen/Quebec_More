@@ -1,0 +1,92 @@
+﻿capital = 357
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	fuel_silos = 1
+}
+
+set_convoys = 75
+
+set_research_slots = 3
+
+recruit_character = NNG_Leverett_Saltonstall
+recruit_character = NNG_acr
+recruit_character = NNG_stc
+recruit_character = NNG_awt
+recruit_character = NNG_pot
+recruit_character = NNG_mt
+recruit_character = NNG_ncm
+recruit_character = NNG_nt
+recruit_character = NNG_acd2
+recruit_character = NNG_fascist_guy
+recruit_character = NNG_ncs
+recruit_character = NNG_nccr
+recruit_character = NNG_aco2
+recruit_character = NNG_communist_guy
+recruit_character = NNG_ai2
+recruit_character = NNG_ar
+recruit_character = NNG_coi
+recruit_character = NNG_acas
+recruit_character = NNG_acgs
+recruit_character = NNG_aa2
+recruit_character = NNG_democratic_guy
+
+357 = {
+	add_core_of = NNG
+}
+465 = {
+	add_core_of = NNG
+}
+464 = {
+	add_core_of = NNG
+}
+
+1939.1.1 = {
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = flexible_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+
+		#doctrines
+		grand_battle_plan = 1
+		trench_warfare = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 98
+	communism = 0.5
+	neutrality = 1.5
+}
+

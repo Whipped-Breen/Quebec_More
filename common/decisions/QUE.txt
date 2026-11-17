@@ -1,0 +1,133 @@
+political_actions = {
+	FRA_integrate_quebec = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = FRA
+		}
+		available = {
+			controls_state = 468
+			controls_state = 466
+		}
+		visible = {
+			
+		}
+		cost = 75
+		days_remove = 90
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 200
+		}
+		modifier = {
+			political_power_gain = -0.1
+		}
+		remove_effect = {
+			hidden_effect = { QUE = { add_state_core = 730 } }
+			every_state = {
+				limit = { is_core_of = QUE }
+				add_core_of = FRA
+			}
+		}
+	}
+}
+form_cabotia_category = {
+	
+	form_cabotia = {
+
+		icon = generic_form_nation
+
+		available = {
+			all_state = { 
+				OR = {
+					NOT = {
+						is_core_of = QUE
+						is_core_of = NAL
+						is_core_of = NNG
+					}
+					is_controlled_by = ROOT
+					state = 730
+				}
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = QUE
+				original_tag = NAL
+				original_tag = NNG
+			}
+			NOT = { has_global_flag = form_cabotia_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = COB_UNIFIED
+			set_global_flag = form_cabotia_flag
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = QUE
+						is_core_of = NAL
+						is_core_of = NNG
+					}
+				}
+				add_core_of = ROOT
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+form_northland_category = {
+	
+	form_northland = {
+
+		icon = generic_form_nation
+
+		available = {
+			all_state = { 
+				OR = {
+					NOT = {
+						is_core_of = ICE
+						is_core_of = GRN
+						is_core_of = NAL
+					}
+					is_controlled_by = ROOT
+					state = 730
+					state = 337
+				}
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = ICE
+				original_tag = GRN
+				original_tag = NAL
+			}
+			NOT = { has_global_flag = form_northland_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = NOL_UNIFIED
+			set_global_flag = form_northland_flag
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = ICE
+						is_core_of = GRN
+						is_core_of = NAL
+						state = 337
+					}
+				}
+				add_core_of = ROOT
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
